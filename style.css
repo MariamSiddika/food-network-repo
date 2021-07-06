@@ -6,8 +6,12 @@ body{
 h1{
     font-family: 'Otomanopee One', sans-serif;
     font-size: 45px;
+    line-height: 25px;
 }
-.first-section{
+#me-h1{
+    padding-top: 20%;
+}
+.be-flexible{
     display: flex;
 }
 .devide-width{
@@ -16,9 +20,15 @@ h1{
     padding-top: 30px;
 }
 .devide-width img{
-    width: 70%;
-    height: 110%;
+    width: 75%;
+    height: 100%;
     padding-left: 20%;
+}
+#another-image{
+    height: 75%;
+    width: 60%;
+    padding-top: 7px;
+    
 }
 .color-orange{
     color: rgb(238, 115, 44);
@@ -29,4 +39,19 @@ h1{
     padding: 10px 20px;
     color: white;
     border-radius: 25px;
+    
+}
+#first-para{
+    padding-bottom: 20px;
+}
+#another-para{
+    padding-top: 20px;
+    padding-right: 5%;
+    padding-bottom: 20px;
+}
+.first-h1{
+    padding-top: 70px;
+}
+.third-h1{
+    padding-bottom: 20px;
 }
