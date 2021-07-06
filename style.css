@@ -1,0 +1,32 @@
+body{
+    
+    font-family: 'Montserrat', sans-serif;
+    
+}
+h1{
+    font-family: 'Otomanopee One', sans-serif;
+    font-size: 45px;
+}
+.first-section{
+    display: flex;
+}
+.devide-width{
+    width: 50%;
+    margin-left: 25px;
+    padding-top: 30px;
+}
+.devide-width img{
+    width: 70%;
+    height: 110%;
+    padding-left: 20%;
+}
+.color-orange{
+    color: rgb(238, 115, 44);
+}
+.link-button{
+    text-decoration: none;
+    background-image: linear-gradient(rgb(238, 115, 44), tomato);
+    padding: 10px 20px;
+    color: white;
+    border-radius: 25px;
+}
