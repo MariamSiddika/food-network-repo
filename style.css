@@ -1,7 +1,6 @@
 body{
     
-    font-family: 'Montserrat', sans-serif;
-    
+    font-family: 'Montserrat', sans-serif;  
 }
 h1{
     font-family: 'Otomanopee One', sans-serif;
@@ -11,8 +10,13 @@ h1{
 #me-h1{
     padding-top: 20%;
 }
+h2
+{
+    font-family: 'Otomanopee One', sans-serif;
+}
 .be-flexible{
     display: flex;
+    padding-bottom: 30px;
 }
 .devide-width{
     width: 50%;
@@ -55,3 +59,34 @@ h1{
 .third-h1{
     padding-bottom: 20px;
 }
+.top-banner{
+    background-image: url(images/shapes/7.png);
+    background-repeat: no-repeat;
+    margin-top: 10px;
+    background-color: rgb(219, 210, 219);
+}
+.recipe{
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.recipe h2{
+    font-size: 30px;
+}
+.recipe-details{
+    display: flex;
+
+}
+.container{
+    width: 33%;
+    height: 400px;
+    padding: 10px;
+    margin: 3% 3%;
+    border-radius: 5%;
+    box-shadow: 10px 10px 25px gray;
+}
+.container img{
+    height: 250px;
+    width: 100%;
+}
+
