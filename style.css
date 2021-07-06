@@ -13,6 +13,7 @@ h1{
 h2
 {
     font-family: 'Otomanopee One', sans-serif;
+    line-height: 20px;
 }
 .be-flexible{
     display: flex;
@@ -63,7 +64,7 @@ h2
     background-image: url(images/shapes/7.png);
     background-repeat: no-repeat;
     margin-top: 10px;
-    background-color: rgb(219, 210, 219);
+    background-color: rgb(248, 213, 248);
 }
 .recipe{
     text-align: center;
@@ -81,7 +82,7 @@ h2
     width: 33%;
     height: 400px;
     padding: 10px;
-    margin: 3% 3%;
+    margin: 3%;
     border-radius: 5%;
     box-shadow: 10px 10px 25px gray;
 }
@@ -89,4 +90,30 @@ h2
     height: 250px;
     width: 100%;
 }
+.additional{
+    width: 100%;
+    box-shadow: 10px 10px 25px gray;
 
+} 
+.position{
+    justify-content: space-around;
+    width: 100%;
+    height: 5%;
+    box-shadow: 10px 10px 25px rgb(139, 137, 137);
+    display: flex;
+}
+footer{
+    padding-top: 15px;
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding-bottom: 15px;
+    margin-top: 3%;
+    margin-bottom: 3%;
+}
+.color-gray{
+    color: rgb(182, 176, 176);
+}
+.form{
+    margin: 5%;
+}
